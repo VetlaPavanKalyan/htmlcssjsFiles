@@ -1,0 +1,32 @@
+css selectors
+-------------
+univrersal-> *;
+type->h1,p,div;
+class->used for multiple tags;
+specific->id
+tag_name.class_name{
+			---
+			---	
+			---
+		   }
+id->used for single tag only;
+child->  ">";
+descendant->  Nested -> used on div having 3paragrahs
+adjacent->
+attribute
+query selector
+--------
+INTERNAL
+hTml
++<style>
+EXTERNAL
+using external .css file and including it in html file
+using  link tag  syntax: <link rel = "Relation between linked and linker file" href = ".css_filenam" type="type/css">;
+INLINE 
+when we want to specify styles for certain places of a html file we use these inline functions.
+-------
+@import url("Sample.css")
+this is used to import .css files from other sites using their urls
+-------
+
+javascript earlier version ecma script

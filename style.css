@@ -1,0 +1,56 @@
+#image {
+    float: left;
+    height:250px;
+    width: 200px;
+}
+body {
+    background-color: lightgrey;
+}
+form {
+    background-color: lightcyan;
+    position: relative;
+}
+#para {
+    width: 350px;
+    border: 2px solid black;
+    color: red;
+    font-size: 20px;
+    margin-right: 600px;
+    position: absolute;
+    top:100px;
+    right: -250px;
+   
+}
+#myDiv{
+    background-color: lightyellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: black;
+    width: 600px;
+    height: 230px;
+    border: 2px solid black;
+    text-align: center;
+    position:absolute;
+    top: 20px;
+    right: 300px;
+    z-index: 1;
+}
+#myDiv p{
+    font-size: 20px;
+}
+#ld{
+    color: red;
+    font-family:'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font:bolder;
+    font:italic;
+}
+button{
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: inline-block;
+}

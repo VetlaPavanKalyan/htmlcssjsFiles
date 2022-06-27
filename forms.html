@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            FORM
+        </title>
+        <style>
+            body{
+                background-image: url("https://upload.wikimedia.org/wikipedia/en/2/27/Bliss_%28Windows_XP%29.png");
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 1000px;
+                height: 1000px;
+                font-size: 20px;
+                margin-left: auto;
+                margin-right: auto;
+                font: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 >FORMS Using form tag</h1>
+        <form method="get">
+            <fieldset>
+                <legend>Personal Details</legend>
+                <p>
+                    <label>First Name : <input name="firstname" placeholder="enter first name" required/></label>
+                </p>
+                <p>
+                    <label>Last Name : <input name="lastname" placeholder="enter last name" required/></label>
+                </p>
+                <p>
+                    Gender : 
+                    <label><input type="radio" name="gender" value="male" />Male</label>
+                    <label><input type="radio" name="gender" value="female" />female</label>
+                </p>
+                <p>
+                    <label>Email : <input name="email" placeholder="enter email"/></label>
+                </p>
+                <hr/>
+                <p>
+                    <label>Date of Birth : <input type="date" name="birthDate"/></label>
+                </p>
+                <p>
+                    <label>Age : </label><input type="number" name="Age" required placeholder="enter age" min="18" max="65" style="width: 200px;"></label>
+                </p>
+                <hr/>
+                <p>
+                    <label>Address : 
+                        <br/>
+                        <textarea name="address" cols="30" rows="3" placeholder="enter Address"></textarea>
+                    </label>
+                </p>
+                <p>
+                    <input type="submit" value="Submit">
+                    <button type="submit">Submit</button>
+                </p>
+            </fieldset>
+        </form>
+    </body>
+</html>

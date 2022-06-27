@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Assignment-2
+        </title>
+        <style>
+            @font-face {
+            font-family: customfont;
+            src: url(Sacramento-Regular.ttf);
+            }
+            @font-face {
+            font-family: customfont2;
+            src: url(LuckiestGuy.ttf);
+            }
+            .cf1
+            {
+            font-family: customfont;
+            font-weight: bold;
+            font-size: 50px;
+            }
+            .cf2
+            {
+            font-family: customfont2;
+            font-size: 40px;
+            }
+            body{
+                background-image: url(http://www.gvpce.ac.in/gvp/images/logo.jpg);
+                align-content: left;
+                background-repeat: no-repeat;
+                background-size: 200px 200px;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: x-large;
+            }
+            table, td{
+                text-align: center;
+                border: 1px solid black;
+                border-collapse: collapse;
+                margin-left: 300px;
+                margin-top: 50px;
+                width: auto;
+                padding:40px;
+            }
+            #image {
+                width: 200px;
+                height: 250px;
+            }
+            #c {
+                background-color: lightcoral;
+            }
+            #cpp {
+                background-color: lightblue;
+            }
+            #py {
+                background-color: lightpink;
+            }
+            #j {
+                background-color: lightgreen;
+            }
+            #r {
+                background-color: lightgoldenrodyellow;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption>My Results and Bio:</caption>
+            <tr>
+                <th style="font: bolder;">About</th>
+            </tr>
+            <tr>
+                <td>
+                    Click on:<br/>
+                    Left:Linkedin Profile<br/>
+                    Right:3rd Semester Results<br/>
+                </td>
+                <td colspan="5">
+                    <img src="PHOTO.jpg" alt="image" id="image" usemap="#abc"/>
+                    <map name="abc">
+                        <area shape="rect" href="https://www.linkedin.com/in/vetla-pavan-kalyan-651375209/" alt="Linkedin" coords="0,0,80,200" target="_blank" title="Profile"/>
+                        <area shape="rect" href="SEMESTER-3.pdf" alt="Results" coords="80,0,160,200" target="_blank" title="Results"/>
+                    </map>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="1">Programming Languages<br/> I've learned :</td>
+                <td colspan="1" id="c">C</td>
+                <td colspan="1" id="cp">C++</td>
+                <td colspan="1" id="py">Python</td>
+                <td colspan="1" id="j">Java</td>
+                <td colspan="1" id="r">R Language</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <marquee class="cf1" direction="right">My Name is VETLA PAVAN KALYAN</marquee>
+                </td>
+                <td colspan="3">
+                    <marquee class="cf2" direction="right">V PAVAN KALYAN</marquee>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

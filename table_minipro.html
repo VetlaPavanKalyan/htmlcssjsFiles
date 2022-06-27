@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tablesMiniProject</title>
+    <style>
+        table, td, th {
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 24px;
+        }
+        table {
+            margin-top: 120px;
+            margin-left: 550px;
+        }
+        th {
+            text-align: left;
+        }
+        .header {
+            background-color: lightskyblue;
+        }
+        .text {
+            background-color: white;
+        }
+    </style>
+</head>
+<body style="background-color:grey; font: bolder;font-size: large;font-family: 'Times New Roman', Times, serif;">
+    <table style="width: 800px;">
+        <tr>
+            <th class="header" colspan="2">Invoice #12345ABC</th>
+            <th colspan="2" class="header">17th June 2022</th>
+        </tr>
+        <tr class="text">
+            <td colspan="2">
+                <div>
+                    <h2>Pay To : </h2>
+                    <p>
+                        The Tech Park,
+                        123 Willow Street,
+                        Boulevard, LA - 567892
+                    </p>
+                </div>
+            </td>
+            <td colspan="2">
+                <div>
+                    <h2>Customer : </h2>
+                    <p>
+                        John Lark, 
+                        Dummy Apartments,
+                        276 Main Street,
+                        Boulevard, LA - 567892
+                    </p>
+                </div>
+            </td>
+        </tr>
+        <tr class="header">
+            <td><b>Name / Description</b></td>
+            <td><b>Qty. </b></td>
+            <td><b>MRP</b></td>
+            <td><b>Amount</b></td>
+        </tr>
+        <tr class="text">
+            <td>Biryani</td>
+            <td>3</td>
+            <td>400</td>
+            <td>1200</td>
+        </tr>
+        <tr class="text">
+            <td>Chocolate Shake</td>
+            <td>3</td>
+            <td>200</td>
+            <td>600</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="header"><b>Subtotal : </b></td>
+            <td class="text">1800</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="header"><b>Tax</b></td>
+            <td class="text">10%</td>
+            <td class="text">180</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="header"><b>Grand Total : </b></td>
+            <td class="text">1980</td>
+        </tr>
+    </table>
+</body>
+</html>

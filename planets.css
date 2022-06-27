@@ -1,0 +1,48 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:x-large;
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Solar_System_true_color_%28captions%29.jpg/900px-Solar_System_true_color_%28captions%29.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+
+#firstDiv {
+    margin: 80px;
+    border: 8px double black;
+    padding: 30px;
+}
+
+
+#secondDiv {
+    margin: 80px;
+    border: 8px double black;
+    padding: 30px;
+}
+
+#orderedList {
+    list-style-type:lower-roman;
+    list-style-position:inside;
+}
+
+
+#unorderedList {
+    list-style-type:square;
+}
+
+.item:link {
+    color: yellow;
+}
+
+.item:visited {
+    color: green;
+}
+
+.item:hover {
+    color: white;
+}
+
+.item:active {
+    color: aqua;
+}

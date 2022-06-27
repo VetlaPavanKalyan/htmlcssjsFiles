@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        #register-form {
+            width: 300px;
+            background-color:white;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 24px;
+            font-size: larger;
+        }
+        .input-type {
+            width: 100%;
+        }
+        #terms {
+            margin-top: 18px;
+            margin-bottom: 12px;
+        }
+    </style>
+</head>
+<body style="background-color:lightblue;font-family: 'Times New Roman', Times, serif;">
+    <h1 style="text-align: center;">SignUp</h1>
+    <form id="register-form">
+        <div>
+            <p>First Name : </p>
+            <input class="input-type" type="text" name="First-Name">
+        </div>
+        <div>
+            <p>Last Name : </p>
+            <input class="input-type" type="text" name="Last-Name">
+        </div>
+        <div>
+            <p>Email :</p>
+            <input class="input-type" type="email" name="email">
+        </div>
+        <div>
+            <p>Password : </p>
+            <input class="input-type" type="password" name="password">
+        </div>
+        <div>
+            <p>Confirm Password : </p>
+            <input class="input-type" type="password" name="password">
+        </div>
+        <div>
+            <p>Gender : </p>
+            <input type="radio" name="gender" value="male">Male</input>
+            <input type="radio" name="gender" value="female">Female</input>
+            <input type="radio" name="gender" value="other">Other</input>
+        </div>
+        <div>
+            <p>Security Question : </p>
+            <select name="security-question">
+                <option value="first pet">What is your First Pet?</option>
+                <option value="first job">What is your First Job?</option>
+                <option value="first date">When is your First Date?</option>
+            </select>
+        </div>
+        <div>
+            <textarea name="security-answer" rows="6" cols="30" placeholder="Security Answer"></textarea>
+        </div>
+        <div>
+            <input id="terms" type="checkbox" >I aggre to Tems and COnditions</input>
+        </div>
+        <input type="submit" name="submit">
+    </form>
+</body>
+</html>
