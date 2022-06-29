@@ -1,0 +1,41 @@
+#btn-login {
+    font-size: 24px;
+    background-color: lightblue;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+}
+#btn-login:hover {
+    background-color: blue;
+    color: white;
+}
+
+#btn-signup {
+    background-color: white;
+    font-size: 24px;
+    padding: 8px 24px;
+    border: 4px solid lightblue;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+    color: black;
+}
+#btn-signup:hover {
+    background-color: lightblue;
+    color: white;
+}
+
+#btn-disabled {
+    background-color:white;
+    font-size: 24px;
+    border: 4px solid red;
+    padding: 8px 24px;
+    border-radius: 8px;
+    outline: none;
+    cursor: not-allowed;
+}
+#btn-disabled:hover {
+    opacity: 0.6;
+}

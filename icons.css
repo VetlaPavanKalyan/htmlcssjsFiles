@@ -1,0 +1,28 @@
+#btn-fb {
+    background-color: #4267B2;
+    font-size: 24px;
+    border-radius: 8px;
+    padding: 16px 16px;
+    cursor: pointer;
+    outline: none;
+}
+.label {
+    padding-left: 8px;
+}
+#btn-google {
+    background-color: white;
+    font-size: 24px;
+    border-radius: 8px;
+    padding: 16px 16px;
+    cursor: pointer;
+    outline: none;
+}
+#btn-git {
+    background-color: black;
+    font-size: 24px;
+    border-radius: 8px;
+    padding: 16px 16px;
+    cursor: pointer;
+    outline: none;
+    color: white;
+}
