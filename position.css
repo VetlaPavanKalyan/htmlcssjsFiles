@@ -1,0 +1,48 @@
+body {
+    background-color: plum;
+}
+
+
+#a {
+    position: static;
+    margin-left: 24px;
+    padding: 30px;
+    margin-right: 24px;
+    height: 1000px;
+}
+
+
+#b {
+    position: fixed;
+    margin-bottom: 0;
+    margin-right: 0;
+    right: 0;
+    bottom:0;
+    padding: 30px;
+}
+
+
+#c {
+    position: absolute;
+    margin-left: 0;
+    margin-bottom: 0;
+    left: 0;
+    bottom: 0;
+    padding: 30px;
+}
+
+
+#d {
+    position: relative;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+    padding: 30px;
+}
+
+
+#e {
+    position: sticky;
+    top: 0;
+}
