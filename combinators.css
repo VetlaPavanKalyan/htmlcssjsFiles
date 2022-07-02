@@ -1,0 +1,18 @@
+body {
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.d {
+    background-color: white;
+    box-shadow: 2px 4px 4px gray;
+    width: 600px;
+    margin: 60px;
+    padding: 20px;
+}
+
+
+h1 ~ p {
+    background-color: aqua;
+}
