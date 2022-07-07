@@ -1,18 +1,19 @@
-var btn = document.getElementById('image')
-var about = document.getElementById('myDiv')
-var form = document.querySelector('form')
+let f = document.querySelector('form');
 
-form.addEventListener('click',function(e){
+let i = document.getElementById('i');
+
+let d = document.getElementById('myDiv');
+
+f.addEventListener('click', function (e) {
     e.preventDefault();
 })
 
-btn.addEventListener('click',function(){
-    if(about.classList.contains('hide'))
-    {
-        about.classList.remove('hide')
-        about.classList.add('show')
-    }else if(about.classList.contains('show')){
-        about.classList.remove('show')
-        about.classList.add('hide')
+i.addEventListener('click', function () {
+    if (d.classList.contains('hide')) {
+        d.classList.remove('hide');
+        d.classList.add('show');
+    } else if (d.classList.contains('show')) {
+        d.classList.remove('show');
+        d.classList.add('hide');
     }
 })

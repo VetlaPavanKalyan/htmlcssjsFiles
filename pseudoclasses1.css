@@ -1,0 +1,75 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightblue;
+    text-align: center;
+    font-size: x-large;
+}
+
+
+form {
+    background-color: white;
+    width: 800px;
+    font-size: x-large;
+    margin-left: auto;
+    margin-right: auto;
+    height:fit-content;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+
+.input-item {
+    display: block;
+    font-size: x-large;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    width: 60%;
+}
+
+
+#btn-submit {
+    background-color: rgba(0, 0, 255, 0.2);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 8px;
+    font-size: x-large;
+}
+
+
+#btn-submit:hover {
+    cursor: pointer;
+    background-color: blue;
+}
+
+
+.input-item:required:focus {
+    background-color: lightcoral;
+}
+
+
+.input-item:disabled {
+    background-color:lightskyblue;
+}
+
+
+.input-item:disabled:hover {
+    cursor: not-allowed;
+}
+
+
+.input-item:focus {
+    background-color: lightblue;
+}
+
+
+#btn-checkbox {
+    display: inline;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 15px;
+}
